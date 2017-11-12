@@ -6,7 +6,7 @@ stop = 'stop=place-sbmnl'
 api_key = 'api_key=lT0DPSlA6EuS2ZgwOW5J-w'
 url = 'http://realtime.mbta.com/developer/api/v2/' + query + '?' + api_key + '&' + stop + '&format=json'
 direction_id = 1
-
+# http://realtime.mbta.com/developer/api/v2/predictionsbystop?api_key=lT0DPSlA6EuS2ZgwOW5J-w&stop=place-sbmnl&format=json
 
 while True:
     r = requests.get(url)
